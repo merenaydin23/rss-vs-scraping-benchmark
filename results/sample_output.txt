@@ -1,0 +1,32 @@
+[1] RSS  (https://feeds.bbci.co.uk/news/rss.xml)
+  tur 1/5: 474 ms, 6.3 KB aktarım, 20 başlık
+  tur 2/5: 307 ms, 6.2 KB aktarım, 20 başlık
+  tur 3/5: 1043 ms, 6.2 KB aktarım, 20 başlık
+  tur 4/5: 1027 ms, 6.3 KB aktarım, 20 başlık
+  tur 5/5: 1079 ms, 6.3 KB aktarım, 20 başlık
+
+[2] HTML + BeautifulSoup  (https://www.bbc.com/news)
+  tur 1/5: 2196 ms, 63.3 KB aktarım, 20 başlık
+  tur 2/5: 1365 ms, 63.3 KB aktarım, 20 başlık
+  tur 3/5: 1037 ms, 63.3 KB aktarım, 20 başlık
+  tur 4/5: 510 ms, 63.3 KB aktarım, 20 başlık
+  tur 5/5: 533 ms, 63.3 KB aktarım, 20 başlık
+
+Ölçüm zamanı: 2026-11-25T16:35:29 | 5 turun medyanı | parser: lxml
+
+| Yöntem | Aktarılan veri | Açılmış boyut | İndirme | Parse | Toplam | Başlık |
+|---|---|---|---|---|---|---|
+| RSS (XML) | 6.3 KB | 29.2 KB | 1025 ms | 1.6 ms | 1027 ms | 20 |
+| HTML + BeautifulSoup | 63.3 KB | 372.0 KB | 949 ms | 87.5 ms | 1037 ms | 20 |
+
+Oranlar: HTML, RSS'e göre 10.1x daha fazla veri aktardı, 1.0x daha uzun sürdü.
+RSS ile HTML'deki ilk 20 başlıktan 6 tanesi birebir aynı.
+
+RSS'ten ilk 5 başlık:
+  - Energy bills to rise by 26% from January after gas prices surge
+  - Two men charged with trying to steal cufflinks and clock from Royal home
+  - Third of young Brits have never had sex, but many are sexting and watching porn
+  - Raheem Sterling given suspended jail sentence for dangerous driving and nitrous oxide possession
+  - EU offers UK fresh deal on 'Made in Europe' scheme
+
+Ham sonuçlar results/results.json dosyasına yazıldı.

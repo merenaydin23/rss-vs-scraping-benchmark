@@ -1,0 +1,22 @@
+{
+  "measured_at": "2026-11-25T16:35:29",
+  "runs": 5,
+  "html_parser": "lxml",
+  "rss": {
+    "download_ms": 1025.3148000047076,
+    "parse_ms": 1.5882000152487308,
+    "total_ms": 1027.0504000072833,
+    "transfer_bytes": 6401.0,
+    "body_bytes": 29902.0,
+    "headlines": 20.0
+  },
+  "html_bs4": {
+    "download_ms": 949.3255999987014,
+    "parse_ms": 87.5199000001885,
+    "total_ms": 1036.8454999988899,
+    "transfer_bytes": 64818.0,
+    "body_bytes": 380945.0,
+    "headlines": 20.0
+  },
+  "overlap_rss_vs_html": 6
+}

@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+defusedxml
+matplotlib
+# Opsiyonel (sadece --selenium bayrağı için, Chrome kurulu olmalı):
+# selenium
