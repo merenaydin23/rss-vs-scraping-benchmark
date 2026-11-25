@@ -2,7 +2,7 @@
 
 BBC News üzerinden aynı haber başlıklarını RSS beslemesi ve HTML kazıma (scraping) ile çekerek aktarılan veri boyutu, ayrıştırma hızı ve kırılganlık farkını ölçen karşılaştırma aracı.
 
-> Medium yazısı: `<Medium linki>`
+> Medium yazısı: [RSS mi, Web Scraping mi? BBC Üzerinde Ölçtüm](https://medium.com/@muhammederenaydin7/rss-mi-web-scraping-mi-bbc-%C3%BCzerinde-%C3%B6l%C3%A7t%C3%BCm-60b632b0e641)
 
 ![RSS vs. HTML Kazıma Kapak Görseli](docs/images/cover.png)
 
